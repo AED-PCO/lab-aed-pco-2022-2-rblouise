@@ -21,5 +21,6 @@ Para cada aula de laboratório, salvar print da execução de cada atividade com
 
 6- Escreva um método recursivo que calcule a soma dos elementos de valor par de um vetor de números inteiros positivos.
 ?
+
 7- Escreva um método recursivo que receba uma frase e retorne a mesma frase, sem nenhuma vogal. 
 ?
