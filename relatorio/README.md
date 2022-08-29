@@ -7,6 +7,7 @@ Para cada aula de laboratório, salvar print da execução de cada atividade com
 [lab1 - exercicio 4.pdf.pdf](https://github.com/AED-PCO/lab-aed-pco-2022-2-rblouise/files/9388315/lab1.-.exercicio.4.pdf.pdf)
 [lab1 - exercicio 5.pdf.pdf](https://github.com/AED-PCO/lab-aed-pco-2022-2-rblouise/files/9388316/lab1.-.exercicio.5.pdf.pdf)
 [lab1 - exercicio 6.pdf.pdf](https://github.com/AED-PCO/lab-aed-pco-2022-2-rblouise/files/9388317/lab1.-.exercicio.6.pdf.pdf)
+
 1- Exercício: definição recursiva da série de Fibonacci
 ![FIBONACCI md](https://user-images.githubusercontent.com/101759423/187114062-959cf7a3-9925-4b22-a564-0a6c4eb60a96.jpeg)
 2- Escreva um método recursivo que retorne o fatorial de um número.
