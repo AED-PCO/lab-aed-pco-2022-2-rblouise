@@ -7,7 +7,7 @@
 4- Escreva um método recursivo que realize a potenciação entre dois números inteiros, A e B, recebidos por parâmetro. Seu método deve, portanto, retornar o resultado de AB
 ![potencia md](https://user-images.githubusercontent.com/101759423/187114311-eb4574c3-5c91-4b4d-8a14-0e796be8ee0a.jpeg)
 5-Escreva um método recursivo que receba uma frase e uma letra como parâmetros. Este método deve retornar a quantidade de ocorrências desta letra nesta frase.
-![frase md](https://user-images.githubusercontent.com/101759423/187114778-16f0a1ab-2345-4a1f-a3fa-5c2367982167.jpeg)
+?
 
 6- Escreva um método recursivo que calcule a soma dos elementos de valor par de um vetor de números inteiros positivos.
 ?
