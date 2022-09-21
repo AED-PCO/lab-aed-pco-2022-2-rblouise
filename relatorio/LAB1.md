@@ -1,3 +1,5 @@
+LABORATORIO 1 - INTRODUÇÃO
+
 1- Alguns números de quatro algarismos possuem uma característica particular. Se separamos esse número em dois grupos e os somarmos encontramos um outro número cujo quadrado é exatamente igual ao número fornecido anteriormente. Veja o exemplo:
 Número = 3025 
 Separando o número em dois grupos de dois algarismos temos o 30 e o 25.
@@ -26,16 +28,19 @@ Descrição:
 4- Faça um programa que receba os elementos de uma matriz de 5 linhas por 3 colunas. 
 Mostre a soma dos elementos de cada uma das linhas e das colunas da matriz.
 
-Descrição:
-?
+Descrição: Foi feito um código de variaveis inteiras em que tem dois For que percorre a Linha e a Coluna da Matriz fazendo a soma dessas Linhas e Colunas e em seguida imprimindo o resultado da soma.
+
+![lab1_exerc4](https://user-images.githubusercontent.com/101759423/191616429-28d30e59-6c9b-4f48-8d56-12c8a0c0c7ae.jpeg)
 
 5- Faça um programa que chame uma função capaz de calcular o Fatorial de um número inteiro.
 
-Descrição:
+Descrição: Foi feito um código de variaveis inteiras, em que o For percorre X vezes e dentro dele faz o fatorial multiplicado pelo valor de i e em seguida mostra o resultado do valor fatorial.
+
 ![lab1_ex5](https://user-images.githubusercontent.com/101759423/190519304-e0cebbab-ad92-436b-b07a-9cfaa0c28c1c.png)
 
 
 6- Faça um programa que chame uma função capaz de calcular xʸ, sendo x e y inteiros. Utilize passaagem de parâmetros por referência.
 
-Descrição:
+Descrição: Código foi feito por variaveis do tipo double e foi feita uma função chamada Potencia no qual foi foi inserido duas variaveis e foi feito dentro da função foi feito a potenciação dos valores X e Y, na Main foi feita a chamada da função e foi impresso o resultado da Potencia.
+
 ![lab1_exercicio6 md](https://user-images.githubusercontent.com/101759423/189242286-1a8c599d-e393-47aa-a873-a67646b0aa05.jpeg)
