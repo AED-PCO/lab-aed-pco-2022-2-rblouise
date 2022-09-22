@@ -81,7 +81,87 @@ Exercícios Introdução
     }
 }
 
-3-----------
+3- namespace lab1_exervet
+{
+    internal class Program
+    {
+
+        static void CriaVetor(int[] V)
+        {
+            int N;
+            for(int i = 0 ; i < V.Length; i++)
+            {
+                Console.Write($"{i} Qual o valor: ");
+                N = int.Parse(Console.ReadLine());
+
+                V[i] = N;
+
+            }
+        }
+
+        static void ComparaVetorigual(int[] A, int[] B, int[] C)
+        {
+            int cont=0;
+            for(int i = 0; i < A.Length; i++)
+            {
+                for(int j = 0; j < B.Length; j++)
+                {
+                    if (A[i] == B[j])
+                    {
+                        cont++;
+                        C[i] = A[i];
+                    }
+                }
+
+            }
+
+            for(int k =0; k < cont; k++)
+            {
+                Console.WriteLine("Os vetores iguais são: " + C[k]);
+            }
+
+        }
+        static void ComparaVetorDiferente(int[] A, int[] B, int[] D)
+        {
+            int cont = 0;
+            for (int i = 0; i < A.Length; i++)
+            {
+                for (int j = 0; j < B.Length; j++)
+                {
+                    if (A[i] != B[j])
+                    {
+                        cont++;
+                        D[i] = A[i];
+                    }
+                }
+
+            }
+
+            for (int k = 0; k < cont; k++)
+            {
+                Console.WriteLine("Os vetores diferentes são: " + D[k]);
+            }
+
+        }
+        static void Main(string[] args)
+        {
+            int[] A = new int[5];
+            int[] B = new int[5];
+            int[] C = new int[5];
+            int[] D = new int[5];
+
+            CriaVetor(A);
+            CriaVetor(B);
+            ComparaVetorigual(A, B, C);
+            ComparaVetorDiferente(A, B, D);
+
+            Console.ReadKey();
+
+
+
+        }
+    }
+}
 
 4- namespace lab1_exerci4
 {
