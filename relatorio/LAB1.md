@@ -22,8 +22,9 @@ Descrição: Foi feito no código um For que percorre X vezes e faz um if e um c
 Crie um vetor resultante C que possua os elementos comuns entre A e B.
 Crie um vetor resultante D que contenha os elementos de A que não existam em B.
 
-Descrição:
-?
+Descrição: Nesse código foi feita 3 funções em que uma cria o vetor, outra compara os vetores iguais e a outra função compara os vetores diferentes, na função compara o vetor foi feito um for para percorrer o vetor e um outro for para fazer a comparação do vetor e em seguida foi feito um contador e um for mais imprimir o resultado do vetor.
+
+![lab1_exercicio3](https://user-images.githubusercontent.com/101759423/191863935-ea09abda-b61a-454b-8b3a-7423cbd98182.jpeg)
 
 4- Faça um programa que receba os elementos de uma matriz de 5 linhas por 3 colunas. 
 Mostre a soma dos elementos de cada uma das linhas e das colunas da matriz.
@@ -37,7 +38,6 @@ Descrição: Foi feito um código de variaveis inteiras em que tem dois For que 
 Descrição: Foi feito um código de variaveis inteiras, em que o For percorre X vezes e dentro dele faz o fatorial multiplicado pelo valor de i e em seguida mostra o resultado do valor fatorial.
 
 ![lab1_ex5](https://user-images.githubusercontent.com/101759423/190519304-e0cebbab-ad92-436b-b07a-9cfaa0c28c1c.png)
-
 
 6- Faça um programa que chame uma função capaz de calcular xʸ, sendo x e y inteiros. Utilize passaagem de parâmetros por referência.
 
