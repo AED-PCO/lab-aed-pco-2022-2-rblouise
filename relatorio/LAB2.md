@@ -28,7 +28,8 @@ Descrição: Foi feita uma função em que coloca um If e um Else e, no If compa
 
 Descrição:--
 
-?
+![FraseVogal](https://user-images.githubusercontent.com/101759423/194444643-68141826-eafd-4488-b7f1-b8662c5725c4.jpeg)
+
 
 6- Escreva um método recursivo que calcule a soma dos elementos de valor par de um vetor de números inteiros positivos.
 
@@ -40,4 +41,4 @@ Descrição:--
 
 Descrição:--
 
-?
+![FraseLetra](https://user-images.githubusercontent.com/101759423/194444683-ffa0b10d-b994-42aa-a671-74d1dc7896d8.jpeg)
