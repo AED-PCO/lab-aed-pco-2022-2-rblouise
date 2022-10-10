@@ -33,9 +33,10 @@ Descrição: Foi feita uma função com if que compara a palavra e a letra e da 
 
 6- Escreva um método recursivo que calcule a soma dos elementos de valor par de um vetor de números inteiros positivos.
 
-Descrição:--
+Descrição: foi feita uma função de soma em que criei um if e um return em seguida um else com um return do vetor e do tamanho, na Main foi feita a chamada da função e um for e um if para percorrer o vetor.
 
-?
+![image](https://user-images.githubusercontent.com/101759423/194931817-c87e3ecd-f84e-4142-adc5-7d17059356a6.png)
+
 
 7- Escreva um método recursivo que receba uma frase e retorne a mesma frase, sem nenhuma vogal. 
 
