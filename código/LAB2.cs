@@ -114,6 +114,44 @@ namespace lab2_fra
     }
 }
 
+// Escreva um método recursivo que calcule a soma dos elementos de valor par de um vetor de números inteiros positivos.
+namespace lab2_vet_
+using System;
+
+  class Program {
+    static int soma (int [] vetor, int tamanho)
+            {
+    
+                if (tamanho == 0)
+                    return 0;
+    
+                else 
+                    return vetor[tamanho - 1] + soma(vetor, tamanho - 1);
+            }
+            static void Main(string[] args)
+            {   
+                int x,N, resultado=0;
+                
+                int[] vetor = new int[10];
+    
+                for (x = 0; x < 10; x++)
+                {
+                    Console.Write("Qual valor para preencher o vetor: ");
+                    N = int.Parse(Console.ReadLine());
+
+                  if(N%2==0){
+                    resultado=resultado+N;
+                  }
+    
+                    vetor[x] = N;
+                }
+              
+                Console.WriteLine($"a soma é:{resultado}");
+                Console.ReadKey();
+          }
+    }
+}
+
 
 
 //Escreva um método recursivo que receba uma frase e retorne a mesma frase, sem nenhuma vogal.
