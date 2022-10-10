@@ -11,12 +11,20 @@ Descrição: Foi feito dentro da Main um For para mostrar os numeros de 1000 a 9
 
 ![lab1_exercicio1 md](https://user-images.githubusercontent.com/101759423/189242275-3c7b3505-9628-4575-934e-c58b4d1dfb9d.jpeg)
 
+Grafico: 
+
+![image](https://user-images.githubusercontent.com/101759423/194929584-b7310a64-9509-4d04-ac42-c79f8aa18556.png)
+
 2- Um Número é dito Primo se possui como divisores o número 1 e ele mesmo. Em outras palavras, um Número Primo possui dois divisores de 1 até ele.Faça um programa que mostre se um determinado número inteiro, lido pelo teclado, é Primo. Um Número é dito Perfeito se a soma de seus divisores menores que ele é igual a ele. Por exemplo, o número 6 possui os  divisores 1, 2 e 3, cuja soma é igual a 6.
 Faça um programa que liste os números perfeitos de 1 a 1000.
 
 Descrição: Foi feito no código um For que percorre X vezes e faz um if e um contador para mostrar se o numero é primo ou não é. Em seguida faz uma soma e um For para mostrar se o número é perfeito.
 
 ![lab1_ex2](https://user-images.githubusercontent.com/101759423/190519236-9456f300-0dd0-49c7-9ad2-bc796465ff5e.png)
+
+Grafico:
+
+![image](https://user-images.githubusercontent.com/101759423/194930061-8f6811c3-282f-44fc-aff9-99a6d73abdbe.png)
 
 3- Faça um programa que receba os elementos de dois vetores, A e B, cada um com 5 posições. Considere que nenhum dos vetores possui elementos repetidos.
 Crie um vetor resultante C que possua os elementos comuns entre A e B.
@@ -25,6 +33,10 @@ Crie um vetor resultante D que contenha os elementos de A que não existam em B.
 Descrição: Nesse código foi feita 3 funções em que uma cria o vetor, outra compara os vetores iguais e a outra função compara os vetores diferentes, na função compara o vetor foi feito um for para percorrer o vetor e um outro for para fazer a comparação do vetor e em seguida foi feito um contador e um for mais imprimir o resultado do vetor.
 
 ![lab1_exercicio3](https://user-images.githubusercontent.com/101759423/191863935-ea09abda-b61a-454b-8b3a-7423cbd98182.jpeg)
+
+Grafico:
+
+![image](https://user-images.githubusercontent.com/101759423/194931201-6fa7b149-eb5f-4d53-95dc-7a2b3a577c92.png)
 
 4- Faça um programa que receba os elementos de uma matriz de 5 linhas por 3 colunas. 
 Mostre a soma dos elementos de cada uma das linhas e das colunas da matriz.
