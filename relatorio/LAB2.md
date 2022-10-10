@@ -26,7 +26,7 @@ Descrição: Foi feita uma função em que coloca um If e um Else e, no If compa
 
 5-Escreva um método recursivo que receba uma frase e uma letra como parâmetros. Este método deve retornar a quantidade de ocorrências desta letra nesta frase.
 
-Descrição:--
+Descrição: Foi feita uma função com if que compara a palavra e a letra e da um retorno com substring em seguida nao main foi feita chamada da função.
 
 ![FraseVogal](https://user-images.githubusercontent.com/101759423/194444643-68141826-eafd-4488-b7f1-b8662c5725c4.jpeg)
 
@@ -39,6 +39,6 @@ Descrição:--
 
 7- Escreva um método recursivo que receba uma frase e retorne a mesma frase, sem nenhuma vogal. 
 
-Descrição:--
+Descrição: Na Main foi feita declaração de variavel do tipo Char e criado um vetor para percorrer as vogais, na função foi feita uma string com dois Ifs e dois returns.
 
 ![FraseLetra](https://user-images.githubusercontent.com/101759423/194444683-ffa0b10d-b994-42aa-a671-74d1dc7896d8.jpeg)
