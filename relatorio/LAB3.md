@@ -2,11 +2,15 @@ LABORATORIO 3 - ORDENAÇÃO E BUSCA BINARIA
 
 1- Ordenção Binaria com Pos
 
-Descrição: --
+Descrição: Foi feito um codigo em que divdir o vetor em dois subvetores usando while e if.
 
 Imagem:
 
+![image](https://user-images.githubusercontent.com/101759423/195248492-d6c0e548-9654-4701-a7a0-fbc58531ff43.png)
+
 Gráfico:
+
+![image](https://user-images.githubusercontent.com/101759423/195249306-28232a49-54d4-44db-af41-0d506909890e.png)
 
 2- Ordenção Binaria sem Pos
 
