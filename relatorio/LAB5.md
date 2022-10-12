@@ -11,7 +11,7 @@ LABORATORIO 5 - COMPLEXIDADE
     for(int i=n; i>1; i--){
         res = res*i;
         
-3 – Avaliar sequências e laços
+3 – Avaliar sequências e laços.
 
     f(n) = n - 1
 
@@ -25,11 +25,11 @@ LABORATORIO 5 - COMPLEXIDADE
 
     Comparação.
 
-2 – Marcar operações
+2 – Marcar operações.
 
     if(arr[i] == x) return x;
     
-3 – Avaliar sequências e laços
+3 – Avaliar sequências e laços.
 
     f(n) = n
 
@@ -47,14 +47,14 @@ LABORATORIO 5 - COMPLEXIDADE
 
     Comparação, Atribuição e Divisão.
 
-2 – Marcar operações
+2 – Marcar operações.
 
     for(int pos = 0; pos<arr1.length; pos++){
     for(int j = 0; j<arr1.length; j++){
         if(j!=pos)
     res[pos] += arr1[pos]/arr1[j];
 
-3 – Avaliar sequências e laços
+3 – Avaliar sequências e laços.
 
     Multiplicação e Divisão: f(n) = n2 - n
     Comparação: (n) = n2
@@ -69,7 +69,7 @@ LABORATORIO 5 - COMPLEXIDADE
 
     Atribuição, Soma e Divisão
 
-2 – Marcar operações
+2 – Marcar operações.
 
     for(int i=0; i<dados.length; i++){
          double soma=0.0;
@@ -78,7 +78,7 @@ LABORATORIO 5 - COMPLEXIDADE
           vet[i] = soma/(i+1);
           }
           
-3 – Avaliar sequências e laços
+3 – Avaliar sequências e laços.
 
     Divisão: f(n) = n
     Atribuição: f(n) = n2 + n / 2
