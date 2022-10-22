@@ -29,6 +29,8 @@ a) Leia a primeira linha de um arquivo chamado "entrada.txt".
 b) Escreva em um arquivo chamado "saida.txt" o conteúdo lido no arquivo de entrada ao contrário.
 
 c) Descreva quais as operações relevantes.
+      
+    Atribuição e Comparação.
 
 4- Um banco famoso enfrenta problemas de consulta em seu banco de registros. Dentre os problemas identificados pela gerência está a localização das contas dos seus titulares nas listagens e nos relatórios impressos em diferentes situações. Um especialista de TI sugeriu ordenar as contas por meio do CPF dos seus titulares antes das impessões. Dentre alguns algoritmos pré-selecionados para essa ordenação, o especialista escolheu o algoritmo de ordenação por Inserção. Se você fosse o especialista, responda:
 
@@ -46,4 +48,4 @@ c) Descreva quais operações relevantes.
   
 d) Demonstre a viabilidade da sua solução para 10 registros.
 
-5-O código a seguir implementa uma função recursiva. Analise-o e indique o que será retornado pela função, caso os parâmetros possuam os seguintes dados: V = {10, 5, 7, 15, 22, 9, 30} e A = 6.
+5- O código a seguir implementa uma função recursiva. Analise-o e indique o que será retornado pela função, caso os parâmetros possuam os seguintes dados: V = {10, 5, 7, 15, 22, 9, 30} e A = 6.
