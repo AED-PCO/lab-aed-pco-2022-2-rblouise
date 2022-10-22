@@ -10,6 +10,8 @@ c) Compare o texto escrito pelo usuário e o texto lido no arquivo, e escreva na
 
 d) Descreva quais as operações relevantes.
 
+    Atribuição.
+
 2a) Quantos e quais casos base/condições de parada para a função funcRec1()?
  
     Há condição de parada so se o A for menor ou igual a 1.
@@ -44,7 +46,7 @@ b) Qual algoritmo de ordenação usaria?
 
 c) Descreva quais operações relevantes.
 
-    Atribuição e Comparação.
+    Atribuição.
   
 d) Demonstre a viabilidade da sua solução para 10 registros.
 
