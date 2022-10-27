@@ -12,7 +12,8 @@ d) Descreva quais as operações relevantes.
 
     Operações Relevantes: Atribuição.
     Complexidade: O(n2)
-    Modelagem: Foi feita uma função para ler as linhas do arquivo e usuario digitar o texto em seguida o codigo mostra quais letras sao iguais e diferentes.
+    Modelagem: Foi feita uma função para ler as linhas do arquivo e usuario digitar o texto em seguida o código
+    mostra quais letras sao iguais e diferentes.
     
 Imagem:
 
@@ -44,7 +45,8 @@ c) Descreva quais as operações relevantes.
       
     Operações Relavantes: Atribuição e Comparação.
     Complexidade: O(n2)
-    Modelagem: O código trata-se de uma leitura de dois arquivos: entrada.txt e saida.txt, quando feita a leitura e feito um vetor que percorre o for e em seguida faz um returno no Resultado.
+    Modelagem: O código trata-se de uma leitura de dois arquivos: entrada.txt e saida.txt, quando feita a leitura e feito um 
+    vetor que percorre o for e em seguida faz um returno no Resultado.
     
 Imagem:
 
@@ -71,7 +73,9 @@ c) Descreva quais operações relevantes.
   
 d) Demonstre a viabilidade da sua solução para 10 registros.
 
-    O código foi feito 4 funções, uma para gerar CPF's aleatoriamente, outra que faz um if e soma, outra para fazer o Merge Sort percorrer pelo vetor e por fim a função intercala que percorre o for no vetor e compara os CPF's no inicio, meio e fim.
+    O código foi feito 4 funções, uma para gerar CPF's aleatoriamente, outra que faz um if e soma, outra para
+    fazer o Merge Sort percorrer pelo vetor e por fim a função intercala que percorre o for no vetor e compara
+    os CPF's no inicio, meio e fim.
 
 Imagem: 
 
