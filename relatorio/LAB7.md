@@ -73,14 +73,18 @@ d) Demonstre a viabilidade da sua solução para 10 registros.
 
     O código foi feito 4 funções, uma para gerar CPF's aleatoriamente, outra que faz um if e soma, outra para fazer o Merge Sort percorrer pelo vetor e por fim a função intercala que percorre o for no vetor e compara os CPF's no inicio, meio e fim.
 
-Imagem: ![image](https://user-images.githubusercontent.com/101759423/198369471-40cb2483-f3b2-400b-a93c-dcd05031e6a3.png)
+Imagem: 
 
-Gráfico: ![image](https://user-images.githubusercontent.com/101759423/198369666-3a7ba1f6-d06f-4e2a-b2dc-583d6aa0cab2.png)
+![image](https://user-images.githubusercontent.com/101759423/198369471-40cb2483-f3b2-400b-a93c-dcd05031e6a3.png)
+
+Gráfico:
+
+![image](https://user-images.githubusercontent.com/101759423/198369666-3a7ba1f6-d06f-4e2a-b2dc-583d6aa0cab2.png)
 
 
 5- O código a seguir implementa uma função recursiva. Analise-o e indique o que será retornado pela função, caso os parâmetros possuam os seguintes dados: V = {10, 5, 7, 15, 22, 9, 30} e A = 6.
 
-   static int funcao(int a, int[] v){
+    static int funcao(int a, int[] v){
             if(a == 1)
                 return v[0];
             else{
@@ -93,6 +97,7 @@ Gráfico: ![image](https://user-images.githubusercontent.com/101759423/198369666
             }
         }
          
+   
     Descrição: Será retornado pela Função o 22.
     
 Imagem:
