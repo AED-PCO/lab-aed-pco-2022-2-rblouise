@@ -10,7 +10,17 @@ c) Compare o texto escrito pelo usuário e o texto lido no arquivo, e escreva na
 
 d) Descreva quais as operações relevantes.
 
-    Atribuição.
+    Operações Relevantes: Atribuição.
+    Complexidade: O(n2)
+    Modelagem: Foi feita uma função para ler as linhas do arquivo e usuario digitar o texto em seguida o codigo mostra quais letras sao iguais e diferentes.
+    
+Imagem:
+
+![image](https://user-images.githubusercontent.com/101759423/198360347-7c7d246f-ebc3-494b-aae2-33ffc7f69e7e.png)
+
+Gráfico:
+
+![image](https://user-images.githubusercontent.com/101759423/198360891-ffd3c73f-d5c4-4882-8754-df8d636bf166.png)
 
 2a) Quantos e quais casos base/condições de parada para a função funcRec1()?
  
@@ -32,7 +42,18 @@ b) Escreva em um arquivo chamado "saida.txt" o conteúdo lido no arquivo de entr
 
 c) Descreva quais as operações relevantes.
       
-    Atribuição e Comparação.
+    Operações Relavantes: Atribuição e Comparação.
+    Complexidade: O(n2)
+    Modelagem: O código trata-se de uma leitura de dois arquivos: entrada.txt e saida.txt, quando feita a leitura e feito um vetor que percorre o for e em seguida faz um returno no Resultado.
+    
+Imagem:
+
+![image](https://user-images.githubusercontent.com/101759423/198352680-bf81dde8-256a-4dba-bd8b-09dc470e9cd8.png)
+![image](https://user-images.githubusercontent.com/101759423/198352700-6b048758-2b34-4763-8ea5-e0a05d4312c1.png)
+
+Gráfico:
+
+![image](https://user-images.githubusercontent.com/101759423/198362978-77af6abb-310c-450a-bc64-e2e5dd4f3ada.png)
 
 4- Um banco famoso enfrenta problemas de consulta em seu banco de registros. Dentre os problemas identificados pela gerência está a localização das contas dos seus titulares nas listagens e nos relatórios impressos em diferentes situações. Um especialista de TI sugeriu ordenar as contas por meio do CPF dos seus titulares antes das impessões. Dentre alguns algoritmos pré-selecionados para essa ordenação, o especialista escolheu o algoritmo de ordenação por Inserção. Se você fosse o especialista, responda:
 
@@ -50,4 +71,11 @@ c) Descreva quais operações relevantes.
   
 d) Demonstre a viabilidade da sua solução para 10 registros.
 
+Imagem:
+Gráfico:
+
 5- O código a seguir implementa uma função recursiva. Analise-o e indique o que será retornado pela função, caso os parâmetros possuam os seguintes dados: V = {10, 5, 7, 15, 22, 9, 30} e A = 6.
+
+Descrição:
+Imagem:
+Gráfico:
