@@ -96,10 +96,11 @@ Gráfico:
                     return v[a - 1];
             }
         }
-         
-   
-    Descrição: Será retornado pela Função o 22.
     
+Descrição:
+
+    Será retornado pela Função o 22.
+
 Imagem:
 
 ![image](https://user-images.githubusercontent.com/101759423/198371390-af417f84-8a9f-486f-a851-828fa02acb82.png)
