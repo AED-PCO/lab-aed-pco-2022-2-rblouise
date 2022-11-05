@@ -14,7 +14,7 @@ Imagem:
 
 3- FILA
 
-Descrição:
+Descrição: Foi criado 2 funções, uma para tirar fila e outra para inserir fila na qual faz um vetor e é preenchido pelo for e em seguida faz um If
 
 Imagem:
 
