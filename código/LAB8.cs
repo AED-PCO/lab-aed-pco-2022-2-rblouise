@@ -60,3 +60,56 @@ namespace lab8_fila
     }
 }
 
+// PILHA
+namespace Lab8_Pilhaa
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int Pos = 0, Valor = 0, TamanhoVetor = 10;
+            int[] Vetor = new int[TamanhoVetor];
+
+            for (int B = 0; B < TamanhoVetor; B++)
+            {
+                Console.WriteLine("Digite o número que deseja incluir no Vetor: ");
+                Valor = int.Parse(Console.ReadLine());
+                if (Pos < TamanhoVetor)
+                {
+
+                    InserirPilha(Vetor, Pos, Valor);
+                    Pos += 1;
+                }
+                else
+                {
+                    Console.WriteLine("Vetor não possui espaço.");
+                }
+                TirarPilha(Pos, Vetor);
+                Pos -= 1;
+                if (Pos > 0)
+                {
+                    int Aux_Retira = Pos;
+                    for (int k = 0; k < Aux_Retira; k++)
+                    {
+                        TirarPilha(Pos, Vetor);
+                        Pos -= 1;
+                    }
+                }
+
+            }
+            static int[] InserirPilha(int[] Vetor, int VarAux, int Valor)
+        {
+            Vetor[VarAux] = Valor;
+            return Vetor;
+        }
+        static int TirarPilha(int aux, int[] Vetor)
+        {
+            aux -= 1;
+            Console.WriteLine("Removendo da Pilha o número " + Vetor[aux]);
+
+            return aux;
+        }
+        
+        }
+    }
+}
