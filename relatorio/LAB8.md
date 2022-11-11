@@ -2,9 +2,9 @@ LABORATORIO 8 - FILA, LISTA E PILHA
 
 1- PILHA
 
-Descrição:
+    Descrição: No codigo foi feito 2 funções, uma de tirar pilha outra de inserir pilha em que um vetor de 10 posições percorre um For e um If.
 
-Imagem:
+Imagem: ![image](https://user-images.githubusercontent.com/101759423/201439245-515aa0e0-c4e0-4f47-8716-3a3d0d1cbed0.png)
 
 2- LISTA
 
@@ -14,7 +14,7 @@ Imagem:
 
 3- FILA
 
-Descrição: Foi criado 2 funções, uma para tirar fila e outra para inserir fila na qual faz um vetor e é preenchido pelo for e em seguida faz um If
+    Descrição: Foi criado 2 funções, uma para tirar fila e outra para inserir fila na qual faz um vetor e é preenchido pelo for e em seguida faz um If.
 
 Imagem:
 
