@@ -113,3 +113,79 @@ namespace Lab8_Pilhaa
         }
     }
 }
+
+// LISTA
+namespace lab8_lista
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int Pos = 0, Valor = 0, TamVetor = 10, Opcao;
+            int[] Vetor = new int[TamVetor];
+
+            for (int B = 0; B < TamVetor; B++)
+            {
+                Console.WriteLine("Qual valor que deseja incluir no Vetor");
+                Valor = int.Parse(Console.ReadLine());
+                Console.WriteLine("Qual o a posição que deseja incluir no Vetor");
+                Pos = int.Parse(Console.ReadLine());
+
+                if (Pos < TamVetor)
+                {
+                    InsereLista(TamVetor, Vetor, Pos, Valor);
+                    Pos += 1;
+                    for (int i = 0; i < Pos; i++)
+                        Console.WriteLine("Os itens da Lista: " + Vetor[i] + " está em suas respectivas posições = " + i);
+                    InsereLista(TamVetor, Vetor, Pos, Valor);
+                }
+                else
+                    Console.WriteLine("Vetor não tem espaço ou posição está errada!");
+                Console.WriteLine("Deseja remover itens da Lista? 1 - SIM 2 - NÃO");
+                Opcao = int.Parse(Console.ReadLine());
+
+                if (Opcao == 1)
+                {
+
+                    Console.WriteLine("Qual posição deseja remover?");
+                    Pos = int.Parse(Console.ReadLine());
+                    RemoveLista(Vetor, Pos);
+                }
+                else
+                {
+                    if (Pos < TamVetor)
+                    {
+                        InsereLista(TamVetor, Vetor, Pos, Valor);
+                        Pos += 1;
+                        for (int i = 0; i < Pos; i++)
+                            Console.WriteLine("Os itens da Lista: " + Vetor[i] + " está em suas respectivas posições = " + i);
+                        InsereLista(TamVetor, Vetor, Pos, Valor);
+                    }
+                }
+            }
+        }
+        static int[] RemoveLista(int[] Vetor, int Pos)
+        {
+
+            Vetor[Pos] = 0;
+            return Vetor;
+        }
+        static int[] InsereLista(int PosLimite, int[] Vetor, int Pos, int Valor)
+        {
+            if (PosLimite < 0)
+            {
+                Vetor[Pos] = Valor;
+                return Vetor;
+            }
+            if (PosLimite > Pos)
+                PosLimite = Pos;
+            for (int i = Pos; i > PosLimite; i--)
+
+            {
+                Vetor[i] = Vetor[i - 1];
+            }
+            Vetor[PosLimite] = Valor;
+            return Vetor;
+        }
+    }
+}
