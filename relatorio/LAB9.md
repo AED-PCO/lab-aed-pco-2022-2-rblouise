@@ -1,6 +1,7 @@
 PILHA ESTATICA INVERSA
 
-    Descrição: Foi feito um codigo em que possui duas funções em que chama o for para percorrer o vetor, uma inverte o mesmo e a outra mostra o vetor, em seguida chama na Main as duas funções.
+    Descrição: Foi feito um codigo em que possui duas funções em que chama o for para percorrer o vetor, uma inverte
+    o mesmo e a outra mostra o vetor, em seguida chama na Main as duas funções.
 
 Imagem: 
 
