@@ -6,3 +6,13 @@ PILHA ESTATICA INVERSA
 Imagem: 
 
 ![image](https://user-images.githubusercontent.com/101759423/204676780-8974920e-a244-4cd8-8107-e898694ba078.png)
+
+FILA ESTATISCA INVERSA
+
+    Descrição: Foi realizado um código em que foi criada três funções uma mostrar o vetor, inverter a fila e inserir a fila, nas funções
+    de mostrar o vetor e inverter fila foi feito um vetor e for para percorrer esse vetor e em seguida chamar na Main as funções para
+    realizar a inversão da fila
+
+Imagem:
+
+![image](https://user-images.githubusercontent.com/101759423/206569603-ef8a890c-b2a7-408e-8df7-711930b35ed8.png)
