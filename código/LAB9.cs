@@ -65,3 +65,67 @@ namespace lab9_pilhainvertida
         
     }
 }
+
+//FILA ESTATICA INVERTIDA
+
+namespace Lab9_FilaInvertida
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int pos = 0, valor = 0, TamVetor = 5;
+            int[] vetor = new int[TamVetor];
+            int[] VetorInvertido = new int[TamVetor];
+
+
+            for (int i = 0; i < TamVetor; i++)
+            {
+                Console.WriteLine("Digite o número que deseja inserir no Vetor");
+                valor = int.Parse(Console.ReadLine());
+                if (pos < TamVetor)
+                {
+                    InsereFila(vetor, pos, valor);
+                    pos += 1;
+                }
+                else
+                    Console.WriteLine("Vetor não possui espaço livre!");
+            }
+
+            Console.Write("Fila Inicial: ");
+            MostraVetor(vetor);
+
+            VetorInvertido = FilaInvertida(vetor, TamVetor);
+
+            Console.Write("Fila Inversa: ");
+            MostraVetor(VetorInvertido);
+            Console.ReadKey();
+        }
+        static void MostraVetor(int[] V)
+        {
+            for (int j = 0; j < V.Length; j++)
+            {
+                Console.Write($"{V[j]} ");
+            }
+        }
+        static int[] FilaInvertida(int[] vetor, int TamVetor)
+        {
+            int[] VetInvertido = new int[TamVetor];
+
+            for (int k = 0; k < TamVetor; k++)
+            {
+                for (int l = TamVetor - 1; l >= 0; l--)
+                {
+                    VetInvertido[l] = vetor[k];
+                    k++;
+                }
+            }
+            return VetInvertido;
+        }
+        static int[] InsereFila(int[] vetor, int VarAuxiliar, int valor)
+        {
+            vetor[VarAuxiliar] = valor;
+            return vetor;
+        }
+    }
+}
