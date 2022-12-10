@@ -129,3 +129,81 @@ namespace Lab9_FilaInvertida
         }
     }
 }
+
+// LISTA METADE INVERTIDA ESTATICA
+
+namespace Lab9_ListaCopiadaInvertida
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int pos = 0, valor = 0, TamVetor = 4;
+            int[] vetor = new int[TamVetor];
+            int[] VetInvertidoVar = new int[TamVetor / 2];
+
+            for (int k = 0; k < TamVetor; k++)
+            {
+                Console.WriteLine("Digite o número que deseja incluir no Vetor:");
+                valor = int.Parse(Console.ReadLine());
+                Console.WriteLine("Digite a posição que deseja incluir no Vetor:");
+                pos = int.Parse(Console.ReadLine());
+
+                if (pos < TamVetor)
+                {
+                    ListaInserida(TamVetor, vetor, pos, valor);
+                    pos += 1;
+                    for (int i = 0; i < pos; i++)
+                        ListaInserida(TamVetor, vetor, pos, valor);
+                }
+                Console.Write("Lista Inicial: ");
+                MosVetor(vetor);
+
+                VetInvertidoVar = ListaInvertida(vetor, TamVetor);
+
+                Console.Write("Lista Inicial Metade: ");
+                MosVetor(vetor);
+
+                Console.ReadKey();
+            }
+            static void MosVetor(int[] V)
+            {
+                for (int i = 0; i < V.Length; i++)
+                {
+                    Console.Write($"{V[i]} ");
+                }
+            }
+            static int[] ListaInserida(int LimitePos, int[] vetor, int pos, int valor)
+            {
+                if (LimitePos < 0)
+                {
+                    vetor[pos] = valor;
+                    return vetor;
+                }
+                if (LimitePos > pos)
+                    LimitePos = pos;
+                for (int j = pos; LimitePos > pos; j--)
+
+                {
+                    vetor[j] = vetor[j - 1];
+                }
+                vetor[LimitePos] = valor;
+                return vetor;
+            }
+            static int[] ListaInvertida(int[] vetor, int TamVetor)
+            {
+                int[] VetInvertido = new int[TamVetor];
+
+                for (int l = TamVetor / 2; l < TamVetor; l++)
+                {
+                    for (int k = (TamVetor - 1) / 2; k >= 0; k--)
+                    {
+                        VetInvertido[k] = vetor[l];
+                        l++;
+                    }
+                }
+                return VetInvertido;
+            }
+        }
+    }
+}
