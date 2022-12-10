@@ -19,8 +19,9 @@ Imagem:
 
 LISTA ESTATICA INVERTIDA METADE
 
-    Descrição: Foi feita 3 funções no código, na main é chamado essas funções e pedido ao usuario que digite o valor a ser inserido no vetor 
-    e a posição que deseja incluir, nas funções é feita um vetor de 4 posições e um for que percorre esse vetor com ajuda do auxiliar.
+    Descrição: Foi feita 3 funções no código, na main é chamado essas funções e pedido ao usuario que digite o valor a ser inserido no
+    vetor e a posição que deseja incluir, nas funções é feita um vetor de 4 posições e um for que percorre esse vetor com ajuda do
+    auxiliar.
 
 Imagem:
 
