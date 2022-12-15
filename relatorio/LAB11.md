@@ -1,6 +1,6 @@
 LISTA DUPLAMENTE ENCADEADA DINAMICA
 
-    Descrição: Incluindo na Lista duplament, ponte anterior para percorrer toda a lista
+    Descrição: Incluindo na Lista, ponte anterior para percorrer toda a lista
 
 Imagem:
 
