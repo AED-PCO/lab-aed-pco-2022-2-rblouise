@@ -22,8 +22,6 @@ namespace ClasseFila
             do
             {
                 Console.WriteLine("");
-                Console.WriteLine("Bem vindo ao programa de filas.");
-                Console.WriteLine("Lembre-se o primeiro a chegar é o primeiro a ir embora! Chegue cedo e evite filas");
                 Console.WriteLine("Menu para utilizar o programa:");
                 Console.WriteLine("1 - Inserir");
                 Console.WriteLine("2 - Imprimir Numeros na fila");
@@ -225,8 +223,6 @@ namespace ClasseFila
             do
             {
                 Console.WriteLine("");
-                Console.WriteLine("Bem vindo ao programa de pilhas.");
-                Console.WriteLine("Lembre-se o primeiro a chegar é o ultimo a ir embora! Chegue tarde e evite pilhas");
                 Console.WriteLine("Menu para utilizar o programa:");
                 Console.WriteLine("1 - Inserir");
                 Console.WriteLine("2 - Imprimir Numeros na pilha");
@@ -308,8 +304,6 @@ namespace ClasseFila
             do
             {
                 Console.WriteLine("");
-                Console.WriteLine("Bem vindo ao programa de listas.");
-                Console.WriteLine("Lembre-se você pode ir embora a qualquer momento! Nossas chamadas são aleatorias ou por ordem de sorte");
                 Console.WriteLine("Menu para utilizar o programa:");
                 Console.WriteLine("1 - Inserir");
                 Console.WriteLine("2 - Imprimir Elementos na Lista");
